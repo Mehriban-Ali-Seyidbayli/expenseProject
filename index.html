@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="greet">Welcome,<input type="text"> </h3>
+
+        <form action="">
+            <div class="double">
+                <div class="form-spending">
+                    <label for="">Expense</label>
+                    <input id="expense" type="text">
+                </div>
+                <div class="form-price">
+                    <label for="">Price</label>
+                    <input id="price" type="number">
+                </div>
+            </div>
+            <div class="double">
+                <div class="form-state">
+                    <input id="state" type="checkbox">
+                    <label for="">Paid</label>
+                </div>
+                <button id="add-btn">Add</button>
+            </div>
+            <div class="totalDiv">
+                Total Expense: <span id="total"> 0 </span>$
+            </div>
+        </form>
+
+        <div class="list">
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
